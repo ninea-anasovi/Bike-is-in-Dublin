@@ -7,9 +7,23 @@
 
 header{
     background-color: chartreuse;
-    min-height: 100px;
+    display: flex;
+}
+
+header img {
+    margin: 10px 0;
+    height: 80px;
+}
+
+header nav {
+    text-decoration: none;
+    color: white;
 
 }
+
+
+
+
 
 main {
     min-height: 300px;
