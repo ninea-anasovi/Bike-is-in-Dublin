@@ -5,9 +5,16 @@
     margin-right: auto;
 }
 
+body {
+    background-color: coral ;
+}
+
 header{
-    background-color: chartreuse;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
 }
 
 header img {
@@ -15,13 +22,13 @@ header img {
     height: 80px;
 }
 
-header nav {
+header nav a {
     text-decoration: none;
     color: white;
-
+    margin-left: 15px;
+    border: solid 1px white;
+    padding: 5px 15px;
 }
-
-
 
 
 
