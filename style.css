@@ -77,4 +77,9 @@ main {
 
 h1 {
     font-size: 80px;
+    font-family: 'Lustria', serif;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
 }
