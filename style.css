@@ -11,8 +11,9 @@ html {
 
 body {
     background-image: linear-gradient(#fc5e55, #fa40b3);
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Lato', sans-serif;
     color: white;
+    font-size: 1.125rem;
 }
 
 header{
@@ -69,6 +70,7 @@ main {
 
 .herobox1 {
     flex: 2;
+    padding-right: 100px;
 }
 
 .herobox2 {
@@ -76,10 +78,12 @@ main {
 }
 
 h1 {
-    font-size: 80px;
+    font-size: 3.25rem;
     font-family: 'Lustria', serif;
+    margin-bottom: 1rem;
 }
 
 p {
     font-family: 'Lato', sans-serif;
+    line-height: 1.75rem;
 }
