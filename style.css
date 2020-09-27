@@ -46,24 +46,28 @@ main {
 }
 
 .cards {
-    background-color: rgb(53, 199, 60);
-    min-height: 300px;
     display: flex;
     justify-content: space-between;
     
 }
 .card1 {
-    background-color: rgb(199, 53, 150);
+    background-image: url(images/image-background-card1.jpg);
+    background-size: cover;
+    background-position: bottom;
     min-height: 300px;
     width: 30%;
 }
 .card2 {
-    background-color: rgb(218, 154, 196);
+    background-image: url(images/image-background-card2.jpg);
+    background-size: cover;
+    background-position: bottom;
     min-height: 300px;
     width: 30%;
 }
 .card3 {
-    background-color: rgb(53, 182, 199);
+    background-image: url(images/image-background-card3.jpg);
+    background-size: cover;
+    background-position: bottom;
     min-height: 300px;
     width: 30%;
 }
