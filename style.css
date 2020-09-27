@@ -3,7 +3,7 @@ html {
 }
 
 .container {
-    width: 80%;
+    width: 70%;
     min-height: 300px;
     margin-left: auto;
     margin-right: auto;
@@ -48,28 +48,38 @@ main {
 .cards {
     display: flex;
     justify-content: space-between;
-    
+    text-align: center;
 }
+
+.cards span {
+    font-size: 80px;
+    margin-top: 20px;
+}
+
 .card1 {
     background-image: url(images/image-background-card1.jpg);
     background-size: cover;
     background-position: bottom;
-    min-height: 300px;
+    min-height: 250px;
     width: 30%;
+
 }
+
 .card2 {
     background-image: url(images/image-background-card2.jpg);
     background-size: cover;
     background-position: bottom;
-    min-height: 300px;
+    min-height: 250px;
     width: 30%;
+
 }
 .card3 {
     background-image: url(images/image-background-card3.jpg);
     background-size: cover;
     background-position: bottom;
-    min-height: 300px;
+    min-height: 250px;
     width: 30%;
+
 }
 
 .herobox1 {
@@ -87,7 +97,20 @@ h1 {
     margin-bottom: 1rem;
 }
 
+h2 {
+    font-size: 2rem;
+    font-family: 'Lustria', serif;
+    margin-bottom: 0.5rem;
+    margin-top: 20px;
+}
+
 p {
     font-family: 'Lato', sans-serif;
     line-height: 1.75rem;
+}
+
+.cards p {
+    font-size: 0.85rem;
+    line-height: 1.25rem;
+    margin: 20px 30px;
 }
