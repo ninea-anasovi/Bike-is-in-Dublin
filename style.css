@@ -101,7 +101,7 @@ h2 {
     font-size: 2rem;
     font-family: 'Lustria', serif;
     margin-bottom: 0.5rem;
-    margin-top: 20px;
+    margin: 20px 30px;
 }
 
 p {
@@ -113,4 +113,9 @@ p {
     font-size: 0.85rem;
     line-height: 1.25rem;
     margin: 20px 30px;
+}
+
+.cards a {
+    text-decoration: none;
+    color: white;
 }
