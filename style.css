@@ -159,3 +159,8 @@ p {
     box-sizing: border-box;
     margin-top: 40px;
 }
+
+.tbox :last-child {
+    font-style: italic;
+    margin-left: 20px;
+}
