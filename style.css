@@ -30,14 +30,42 @@ header img {
     height: 80px;
 }
 
-header nav a {
+
+.navbutton {
     text-decoration: none;
     color: white;
     margin-left: 30px;
     border: solid 1px white;
     padding: 11px 25px;
     font-family: 'Lustria', serif;
+    display: inline-block;
+    position: relative;
 }
+
+.dropdown-box {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    padding-top: 11px;
+    text-align: center;
+    margin-left: -72.5px;
+}
+
+.navbutton:hover .dropdown-box{
+    display: block;
+
+}
+
+.dropdown-box .navbutton {
+    width: 140px;
+    background-color: white;
+    
+}
+.dropdown-box .navbutton a{
+    line-height: 1.5rem;
+    color: #fc5e55
+}
+
 
 
 
