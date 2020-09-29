@@ -1,5 +1,5 @@
 html {
-
+    background-image: linear-gradient(#fc5e55, #fa40b3);
 }
 
 .container {
@@ -10,7 +10,9 @@ html {
 }
 
 body {
-    background-image: linear-gradient(#fc5e55, #fa40b3);
+    background-image: url(images/image-lion-background.png);
+    background-repeat: no-repeat;
+    background-position: top center;
     font-family: 'Lato', sans-serif;
     color: white;
     font-size: 1.125rem;
