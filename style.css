@@ -194,3 +194,9 @@ p {
     font-style: italic;
     margin-left: 20px;
 }
+
+.main2 {
+    min-height: 200px;
+    padding-top: 50px;
+    padding-right: 350px;
+}
