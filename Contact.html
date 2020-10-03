@@ -76,12 +76,12 @@
             <form action="mail.php" method="post">
 
                 <div class="inputcontainer">
-                    <label for="name">First Name</label>
+                    <label for="name" class="newline">First Name</label>
                     <input type="text" name="name" id="name" placeholder="First Name">
                 </div>
 
                 <div class="inputcontainer">
-                	<label for="email">E-mail</label>
+                	<label for="email" class="newline">E-mail</label>
                 	<input type="email" name="email" id="email" placeholder="name@example.com">
                 </div>
 
@@ -98,7 +98,28 @@
 
                 </div>
 
-                <input type="submit" value="Submit!">
+                <div class="inputcontainer">
+                    <p>How would you be like to be contacted?</p>
+                    <input type="radio" name="container-pref" id="phone" value="phone">
+                    <label for="phone"  class="margin-right-a">Phone</label>
+                    <input type="radio" name="container-pref" id="email2" value="email">
+                    <label for="email2">Email</label>
+
+                </div>
+
+                <div class="inputcontainer">
+
+                    <select name="county" id="county">
+                        <option value="Not-Chosen">Choose Country</option>
+                        <option value="Georgia">Georgia</option>
+                        <option value="UK">UK</option>
+                        <option value="USA">USA</option>
+                        <option value="Ukraine">Ukreine</option>
+                    </select>
+
+                </div>
+
+                <input type="submit" value="Submit!" class="myButton">
             </form>
 
         </div>
